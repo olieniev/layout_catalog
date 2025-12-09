@@ -9,20 +9,6 @@
   padding: 33px 17px 16px;
   transition-duration: 300ms;
 
-  &:hover {
-    transform: scale(1.2);
-
-    & .card__name {
-      color: #34568b;
-    }
-  }
-
-  &__image {
-    width: 160px;
-    height: 134px;
-    align-self: center;
-  }
-
   &__name {
     margin-top: 40px;
     margin-bottom: 0;
@@ -31,6 +17,20 @@
     line-height: 18px;
     color: $text-main-color;
     letter-spacing: 0;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+
+    & .card__name {
+      color: $card-name-color;
+    }
+  }
+
+  &__image {
+    width: 160px;
+    height: 134px;
+    align-self: center;
   }
 
   &__code {
