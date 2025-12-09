@@ -1,7 +1,7 @@
 main {
-  padding: 50px 40px;
+  padding: $main-padding-block $main-padding-inline;
   display: grid;
-  gap: 46px 48px;
+  gap: $main-row-gap $main-column-gap;
 
   grid-template-columns: repeat(4, $card-width);
 

@@ -11,11 +11,11 @@
   position: relative;
   color: $text-main-color;
   text-align: center;
-  line-height: 60px;
+  line-height: $line-height-60px;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  transition-duration: 300ms;
+  transition-duration: $transition-duration-300ms;
 }
 
 .nav__link:hover {
@@ -29,14 +29,14 @@
 .nav__link.is-active::after {
   position: absolute;
   content: '';
-  border-radius: 8px;
+  border-radius: $border-radius-8px;
   background-color: $blue-hover-color;
   bottom: 0;
   left: 0;
-  height: 4px;
+  height: $height-4px;
   width: 100%;
 }
 
 .nav__item:not(:last-child) {
-  margin-right: 20px;
+  margin-right: $margin-20px;
 }
